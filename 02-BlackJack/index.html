@@ -21,11 +21,11 @@
     </header>
 
     <div class="row mt-2 pb-2  ">
-        <div class="col text-center">
+        <div id='divBotones' class="col text-center">
 
-            <button class="btn btn-danger">Nuevo Juego</button>
-            <button class="btn btn-primary">Pedir Cartas</button>
-            <button class="btn btn-primary">Detener</button>
+            <button id='btnNuevo' class="btn btn-danger">Nuevo Juego</button>
+            <button id='btnPedir' class="btn btn-primary">Pedir Cartas</button>
+            <button id='btnDetener' class="btn btn-primary">Detener</button>
 
         </div>
     </div>
@@ -35,7 +35,7 @@
 
             <h1>Jugador 1 - <small>0</small></h1>
             <div id="jugador-cartas">
-            <img class="carta" src="assets/cartas/6H.png">
+            <!-- <img class="carta" src="assets/cartas/6H.png"> -->
             
         </div>
     </div>
@@ -43,14 +43,14 @@
     <div class="row container">
         <div class="col">
 
-            <h1>Computadora 1 - <small>0</small></h1>
+            <h1>Computadora - <small>0</small></h1>
             <div id="computadora-cartas">
-            <img class="carta" src="assets/cartas/6H.png">
+            <!-- <img class="carta" src="assets/cartas/6H.png"> -->
         </div>
     </div>
     </div>
 </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.4/underscore-umd-min.js"></script>
     <script src="assets/js/juego.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.4/underscore-umd-min.js"></script>
 </body>
 </html>
